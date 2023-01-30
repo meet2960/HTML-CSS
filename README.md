@@ -6,4 +6,3 @@ This Repository contains basic projects related to HTML and CSS. It has projects
 |:-:|:-:|:-:|
 |1  |  Real Estate | <a href="https://meet2960.github.io/HTML-CSS/Real-Estate" rel="noopener noreferrer" target="_blank">Live Here</a>  |
 |2  |  Restro Cafe | <a href="https://meet2960.github.io/HTML-CSS/Restro-Cafe" rel="noopener noreferrer" target="_blank">Live Here</a>  |
-|2  |  Max Life | <a href="https://meet2960.github.io/HTML-CSS/Max-Life" rel="noopener noreferrer" target="_blank">Live Here</a>  |
