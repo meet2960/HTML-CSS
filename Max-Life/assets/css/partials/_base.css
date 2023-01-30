@@ -1,0 +1,13 @@
+:root {
+    --ff-main: 'Poppins', sans-serif;
+    --primary-color: rgb(1, 56, 116);
+    --accent-color: rgb(243, 126, 53);
+    --fw-600: 600;
+    --fw-700: 700;
+    /* --primary-color: rgb(38, 56, 102); */
+    /* --primary-color: rgb(30, 70, 122); */
+}
+
+body {
+    font-family: var(--ff-main)
+}
