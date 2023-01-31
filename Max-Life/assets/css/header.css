@@ -1,0 +1,76 @@
+/* * Navbar CSS Starts Here*/
+*{
+    /* outline: 2px solid red; */
+}
+.navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.navigation-toggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1040;
+    background-color: #f2f6f7;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .07);
+    animation: translateHeader .8s;
+}
+
+@keyframes translateHeader {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+/* #nav {
+    z-index: 999;
+} */
+
+.logo-img {
+    width: 100px;
+}
+
+.nav-list .nav-item {
+    margin-right: 10px;
+}
+
+.nav-list .nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-list .nav-link:hover {
+    color: grey;
+    font-weight: 500;
+    text-decoration: underline;
+    /* transition: 0.9s all ease-in; */
+}
+
+/* * Navbar CSS Ends Here*/
+
+/* * Hero Background CSS Starts Here */
+.contact-btn {
+    padding: 10px 15px;
+    border: 2px solid rgb(38, 56, 102);
+    border-radius: 3px;
+}
+
+.contact-btn:hover {
+    border-radius: 3px;
+    border: 2px solid rgb(38, 56, 102);
+    background-color: rgb(68, 114, 174);
+}
+
+/* * Hero Background CSS Ends Here */

@@ -1,0 +1,64 @@
+/* * Quiz Slider CSS Starts Here */
+.c-pagination {
+    position: relative;
+}
+
+.c-pagi .c-pagibullet {
+    position: absolute;
+    margin-bottom: -25px;
+}
+
+.swiper-pagination-bullet {
+    width: 25px !important;
+    height: 5px !important;
+    border-radius: 0 !important;
+    background-color: var(--primary-color) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--accent-color) !important;
+    color: var(--accent-color) !important;
+}
+
+/* * Quiz Slider CSS Ends Here */
+
+/* * Blog Slider Css Starts Here*/
+.b-box{
+    height: 70px;
+    width: 70px;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog-auto{
+    display: flex;
+    margin-top: auto;
+}
+/* * Blog Slider Css Ends Here  */
+
+/* * Education Videos Section CSS Starts Here */
+.b-shadow1 {
+    -webkit-box-shadow: -70px 70px 0px -45px var(--primary-color);
+    -moz-box-shadow: -70px 70px 0px -45px var(--primary-color);
+    box-shadow: -70px 70px 0px -45px var(--primary-color);
+    z-index: 1;
+}
+
+.b-shadow1::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: var(--accent-color);
+    z-index: -1;
+    top: -20px;
+    right: -20px;
+}
+
+.ta {
+    color: #6c757d;
+}

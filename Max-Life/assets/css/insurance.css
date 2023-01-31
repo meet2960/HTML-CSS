@@ -1,0 +1,94 @@
+/* * Secure Secion cards Starts  */
+.fit {
+    object-fit: cover;
+}
+
+.small-img {
+    width: 25%;
+    right: 0;
+    bottom: 0;
+}
+
+.small-img1 {
+    width: 25%;
+    top: 40%;
+    right: 0;
+}
+
+
+/* * Secure Secion cards Ends Here  */
+
+/* * Secure Family Section Starts Here */
+.insure-backimg {
+    /* background: url('/assets/img/services-transparent-bg.png') no-repeat ; */
+    background: url("/assets/img/trans-1.png"), url("/assets/img/trans-1.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+}
+
+.card_photo {
+    bottom: 0%;
+    right: 0%;
+}
+
+.small-img {
+    top: 40%;
+}
+
+.img-icon img {
+    width: 70px;
+    height: 70px;
+}
+
+/* * Secure Family Section Ends Here */
+
+
+/* * Are Your Covered CSS Starts Here */
+.plan_background {
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+/* .plan_background:hover {
+    color: var(--primary-color);
+    background-color: white;
+    left: 10%;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 90px -10px;
+} */
+
+.plan_background-active{
+    color: var(--primary-color);
+    background-color: white;
+    left: 10%;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 90px -10px;   
+}
+@media screen and (max-width: 769px) {
+    .plan_background-active {
+      left: 0;
+    }
+  }
+
+/* .plan_background::after {
+    position: absolute;
+    right: -3.5%;
+    opacity: 0;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 25px solid white;
+    border-bottom: 15px solid transparent;
+}
+
+.plan_background:hover::after {
+    opacity: 1;
+    transition: 0.4s all ease-in-out;
+} */
+
+/* * Are you Covered CSS Ends*/

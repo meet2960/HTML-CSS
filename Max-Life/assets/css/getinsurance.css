@@ -1,0 +1,72 @@
+/* * Get an Insurance Quote CSS Starts  */
+.up {
+  position: relative;
+  margin: -10px;
+}
+
+.up img {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+
+.up::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid var(--primary-color);
+  border-left: 10px solid transparent;
+  left: -10px;
+  top: 0px;
+}
+
+.b-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-edit1 {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.form-edit1::placeholder {
+  color: black;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.form-edit1:focus {
+  box-shadow: none;
+}
+
+.b-right {
+  border-right: 4px solid rgb(174, 174, 174);
+}
+
+@media screen and (max-width: 769px) {
+  .bor {
+    border-right: 0;
+  }
+}
+
+.insure-tab {
+  color: var(--primary-color);
+  transition: 0.5s all ease-in;
+}
+
+.insure-tab img {
+  background-color: var(--primary-color);
+}
+
+.insure-tab:hover {
+  color: white;
+  background-color: var(--primary-color);
+  transform: translateX(10%);
+  transition: 0.5s all ease-in-outj ;
+  /* transform: translate(10%,10%); */
+}
+
+/* * Get an Insurance Quote CSS Ends  */
