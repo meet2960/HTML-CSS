@@ -1,0 +1,164 @@
+/* * Navigation Bar CSS Starts Here  */
+.wrapper {
+  position: relative;
+}
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #d2d3d4;
+}
+
+.nav-link.activ-link {
+  color: var(--primary-color) !important;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: none;
+  z-index: 1040;
+}
+
+.navigation-toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1040;
+  background-color: #f2f6f7;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+  animation: translateHeader 0.8s;
+}
+
+.navigation-toggle .nav-link {
+  color: black;
+}
+
+@keyframes translateHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* * Navigation Bar CSS Ends Here  */
+
+/* * Hero Section CSS Starts Here  */
+.herobg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("../img/herobg.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hero-head {
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.hero-head p {
+  letter-spacing: 10px;
+}
+
+.hero-head h2 {
+  line-height: 80px;
+}
+
+.corner {
+  position: relative;
+  padding: 50px;
+}
+
+.corner::before {
+  content: "";
+  width: 3%;
+  height: 7%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-top: 2px solid var(--accent-color);
+  border-left: 2px solid var(--accent-color);
+}
+
+.corner::after {
+  content: "";
+  width: 3%;
+  height: 7%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  border-bottom: 2px solid var(--accent-color);
+  border-left: 2px solid var(--accent-color);
+}
+
+/* * Hero Section CSS Ends Here  */
+
+/* * Hero Section Points CSS Starts Here */
+.points {
+  background-color: #d7d7d4;
+}
+
+.points span {
+  font-size: 35px;
+}
+
+.points span {
+  position: relative;
+}
+
+.points span::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 74%;
+  left: 110%;
+  background-color: #c9c9c9;
+}
+
+/* * Hero Section Points CSS Ends Here */
+
+/* ? Media Query from Navbar to Hero Points Section  */
+@media screen and (max-width: 427px) {
+  .corner {
+    padding: 0px !important;
+  }
+
+  .hero-head {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+
+  .points span::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+}

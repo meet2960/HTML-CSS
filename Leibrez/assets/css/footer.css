@@ -1,0 +1,41 @@
+.footer-bg {
+    background-color: rgb(38, 56, 102);
+}
+
+.plc-holder {
+    background-color: transparent;
+    padding: 13px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 85%;
+}
+
+.send-btn {
+    background-color: #ecdddd;
+    padding: 20px;
+    margin-left: -50px;
+    border-radius: 50%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.brd-circle {
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.wrapper .backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.wrapper .backtop i {
+    border-radius: 10px;
+    background-color: #F2F6F7;
+    padding: 10px;
+    color: var(--primary-color);
+}

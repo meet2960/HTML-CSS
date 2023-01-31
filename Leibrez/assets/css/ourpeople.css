@@ -1,0 +1,26 @@
+.slid-img img{
+    height: 380px;
+    max-height: 380px;
+    object-fit:cover ;
+}
+
+.products-swiper-next,.products-swiper-prev{
+    background: no-repeat center center / contain;
+}
+.products-swiper-next.swiper-button-next{
+    top: 100%;
+    left: 15%;
+    background-image: url('../../img/next.png') !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    content: '';
+}
+.products-swiper-prev.swiper-button-prev{
+    top: 100%;
+    background-image: url('../../img/prev.png') !important;
+}
+/* @media screen and (max-width:768px){ */
+    .people-para{
+        text-align: justify;
+    }
+/* } */

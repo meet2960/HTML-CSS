@@ -1,0 +1,45 @@
+.our_company_head {
+    letter-spacing: 5px;
+}
+
+.our_company_head::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.our_comp_img {
+    background-color: rgb(231, 231, 231);
+}
+
+.our_comp_img_1 {
+    border: 13px solid rgb(231, 231, 231);
+}
+
+.content {
+    margin-left: -13px;
+    background-color: white;
+    z-index: 99;
+}
+
+/* .content {
+    top: 30%;
+    left: -6%;
+    background-color: white;
+} */
+
+.content-head::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(231, 231, 231);
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    right: -22%;
+    top: -13%;
+    z-index: -1;
+}

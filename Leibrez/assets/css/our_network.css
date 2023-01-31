@@ -1,0 +1,25 @@
+/* * Our Network CSS  */
+
+.network-bg {
+    background: rgb(38, 56, 102) url("../../img/cta-bg-shape.svg") no-repeat center;
+    background-size: cover;
+}
+
+.brd {
+    border: 7px solid rgb(55 79 139 / 77%);
+}
+
+.bs {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* * Our Blogs CSS  */
+.blogs-bg{
+    background-color: #f1efef;
+}
+.box-1{
+    background-color: white;
+    margin-top: -35px;
+    position: relative;
+}

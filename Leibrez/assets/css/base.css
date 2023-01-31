@@ -1,0 +1,9 @@
+:root{
+    --ff-main: 'Poppins', sans-serif;
+    --primary-color:#B5A46D;
+    --accent-color:#8A8A8A;
+    /* --ff-main: 'Roboto', sans-serif; */
+}
+body{
+    font-family: var(--ff-main);
+}
