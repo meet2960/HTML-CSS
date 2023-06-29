@@ -1,8 +1,8 @@
 # HTML, CSS, Bootstrap, JavaScript and JQuery
 
-This Repository contains basic projects related  HwithTML and CSS. The Projects are fully built from scratch and fully responsive. I have used CSS Framework like Bootstrap and with little custom css in each project. I Have used some vanilla javascript for some basic functionalities in each project depending upon the need.
+This Repository contains basic projects created with HTML and CSS. The Projects are fully built from scratch and fully responsive. I have used CSS Framework like Bootstrap and with little custom CSS in each project. I Have used some vanilla javascript for some basic functionalities in each project depending upon the need.
 
-Here I have list of project with its Live Link.
+Here I have a list of projects with Live Link.
 
 | S.No.  | Project Name  | Demo Here  | 
 |:-:|:-:|:-:|
